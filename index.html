@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animate.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<!--ヘッダー-->
+<header>
+<!--メニューバー-->
+<div class="button_container" id="toggle">
+  <span class="top"></span>
+  <span class="middle"></span>
+  <span class="bottom"></span>
+</div>
+
+<div class="overlay" id="overlay">
+  <nav class="overlay-menu">
+    <ul>
+      <li><a href="#" class="menu_aboutme">About Me</a></li>
+      <li><a href="#" class="menu_service">Service</a></li>
+      <li><a href="#" class="menu_works">Works</a></li>
+      <li><a href="#" class="menu_contact">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+</header>
+
+<!--タイトル-->
+<div class="my_introduction">
+    <h1 class="myname">Masafumi Nemoto Portfolio</h1>
+    <p class="worker_type">- Web Engineer -</p>
+</div>
+
+<div class="main_content">
+<!-- 自己紹介 -->
+<div class="profile_section">
+
+  <div class="portfolio_title profile_title animated fadein">
+    <span class="glyphicon glyphicon-user" style="letter-spacing:5px;"></span> <p>About Me</p>
+  </div>
+
+  <div class="profile_image flexbox1 animated fadein" >
+    <img src="./image/masafumi.jpg" alt="myprofile"/>
+  </div>
+
+  <div class="introduction animated fadein">
+    <span class="glyphicon glyphicon-apple" style="letter-spacing:5px;"></span> <p>Introduction</p>
+    <div class="introduction_text animated fadein">
+      <p>
+      初めまして。Webエンジニアの<span style="font-weight: bold">まさふみ</span>と申します。<br><br>
+      現在フロントエンドを中心に、Webサイト制作およびWebアプリケーションの開発を行なっております。<br><br>
+      「<span style="font-weight: bold; color:red;">質</span>」と「<span style="font-weight:bold; color:red;">スピード</span>」を重視することで、高品質なものを提供させていただきます。<br><br>
+      また、クライアント様に寄り添った<span style="font-weight:bold;color:red;">丁寧なコミュニケーション</span>を常に心がけ、
+      <span style="font-weight:bold;color:red;">最後まで責任を持って</span>、仕事に取り組ませていただきます。
+      </p>
+    </div>
+    <!-- <div class="introduction_text animated fadein">
+      <p>
+        1993年：滋賀県近江八幡市出身<br><br>
+        2012年：滋賀県八日市高等学校を首席で卒業<br><br>
+        2017年：京都大学工学部電気電子工学科卒業<br><br>
+        2019年：京都大学大学院情報学研究科卒業<br>（国内学会2本 / 国際学会3本 / ジャーナル論文3本執筆）<br><br>
+        2019年：大手通信会社に入社<br><br>
+        プログラミングスクールTechAcademyの「フロントエンドコース」「Webアプリケーションコース」「Wordpressコース」「Webデザインコース」
+        「PHP/Laravelコース」「Pythonコース」「データサイエンスコース」「AIコース」を3ヶ月で修了
+      </p>
+    </div> -->
+  </div>
+
+  <div class="sub_title animated fadein">
+    <h2>Concept</h2>
+    <p>- 選ばれる理由 -</p>
+
+    <div class="service-wrap">
+      <ul class="service-list">
+        <li class="service-item">
+          <div class="text">
+            <span class="glyphicon glyphicon-heart-empty" style="letter-spacing:5px;"></span>
+            <div class="title">安心の対応</div>
+            <p class="desc">ご相談〜納品まで責任を持って対応いたします。ご不明点がある場合・新たなご希望が出てきた場合もお気軽にご相談いただけます。</p>
+          </div>
+        </li>
+        <li class="service-item">
+          <div class="text">
+            <span class="glyphicon glyphicon-picture" style="letter-spacing:5px;"><i class="far fa-handshake"></i></span>
+            
+            <div class="title">高品質</div>
+            <p class="desc">コミュニケーションを取り、認識を合わせる作業を大切にしています。クライアント様、更には、クライアント様のお客様に寄り添った「ご提案」をいたします。</p>
+          </div>
+        </li>
+        <li class="service-item">
+          <div class="text">
+            <span class="glyphicon glyphicon-euro" style="letter-spacing:5px;"></span>
+            <div class="title">低コスト</div>
+            <p class="desc">「Webサイトは欲しいけど、高くて手が出せない…」そんなお悩みありませんか？コスパ良くクオリティが高いサイトを作りたい方、管理費用を安くしたい方におすすめです。</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+  <!-- スキル紹介 -->
+<div class="skill_section">
+  <div class="portfolio_title skill_title">
+    <span class="glyphicon glyphicon-cog" style="letter-spacing:5px;"></span><p>Skills</p>
+  </div>
+
+<div class="introduction_text animated fadein">
+    <div class="skill">
+      <img src="./image/HTML.jpg" alt="frontend languages" />
+      <p>Level: ★★★★★</p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/CSS.jpg" alt="frontend languages" />
+        <p>Level: ★★★★★</p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/Javascript.jpg" alt="frontend languages" />
+      <p>Level: ★★★★★<br>
+      </p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/Wordpress.jpg" alt="Wordpress" />
+        <p>Level: ★★★★★</p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/Ruby.jpg" alt="Rails" />
+      <p>Level: ★★★★☆<br>
+      </p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/MySQL.jpg" alt="MySQL" />
+        <p>Level: ★★★★☆</p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/github.jpg" alt="github" />
+        <p>Level: ★★★★★</p>
+    </div>
+ </div>
+</div>
+
+<!-- サービス紹介 -->
+<div class="service_section">
+  <div class="portfolio_title skill_title">
+    <span class="glyphicon glyphicon-globe" style="letter-spacing:5px;"></span><p>Service</p>
+  </div>
+
+  <div class="animated fadein">
+    <div class="service_item">
+      <div class="service_image">
+        <img src="./image/desktop.jpg" alt="coding" />
+      </div>
+      <div class="type">
+        <p>コーディング</p>
+      </div>
+
+      <div class="service_content">
+        LPやコーポレートサイト、ブログなど、
+        目的に応じた適切なコーディングを行います(レスポンシブ対応可)。また、軽微なコードの修正などにも対応しています。<br><br>
+        【料金目安】<br>
+        コード修正: ¥10,000~/1p<br>
+        LP制作: ¥20,000~/1p
+      </div>
+    </div>
+
+    <div class="service_item">
+      <div class="service_image">
+        <img src="./image/pencil.jpg" alt="web design" />
+      </div>
+      <div class="type">
+        <p>Webデザイン</p>
+      </div>
+      <div class="service_content">
+        ヒアリングにより、ご要望に沿ったデザインを的確に把握し作成致します。
+        ユーザーインターフェースを重要視した設計を行い、ご期待を超える提案を提供します。<br><br>
+        【料金目安】<br>
+        LP制作: ¥30,000~/1p<br>
+        コーポレートサイト (10p以下): ¥80,000~
+      </div>
+    </div>
+
+    <div class="service_item">
+      <div class="service_image">
+        <img src="./image/wordpress2.jpg" alt="wordpress" />
+      </div>
+      <div class="type">
+        <p>Wordpress</p>
+      </div>
+      <div class="service_content">
+        コーポレートサイトや個人ブログ、およびウェブマガジンなどのWordPressサイトの構築や既存サイトのWordPress移行、コードの修正に対応しております。
+        <br><br>
+        【料金目安】<br>
+        Wordpress移行: ¥100,000~<br>
+        Wordpress制作: ¥200,000~
+      </div>
+    </div>
+    <p style="font-size:18px; color:#333;">※正式なお見積もりは、別途ご相談させていただきます。</p>
+  </div>
+</div>
+
+<!--Webサイト　ポートフォリオ-->
+<div class="portfolio_section">
+  <div class="portfolio_title works_title">
+    <span class="glyphicon glyphicon-list-alt" style="letter-spacing:5px;"></span><p style="color: white;">Works</p>
+  </div>
+
+<div class="animated fadein">
+    <a href="https://mizutaniyuji.github.io/my_portfolio" class="portfolio_link">
+    <div class="portfolio">
+    	<img src="./image/my_portfolio.png" alt="portfolio" />
+    	<div class="mask1"></div>
+    	<div class="mask2"></div>
+    	<div class="caption">
+    		<p>【Category】オリジナル作品<br><br>
+          【Title】Yuji Mizutani's Portfolio<br><br>
+          【Skill】HTML / CSS / JQuery<br><br>
+          【Detail】私のことをよく知ってもらうためのサイトです。
+        </p>
+    	</div>
+    </div>
+    </a>
+
+    <a href="https://movie-collections-ver1.herokuapp.com/" class="portfolio_link">
+    <div class="portfolio">
+      <img src="./image/movie-collections.png" alt="portfolio" />
+      <div class="mask1"></div>
+      <div class="mask2"></div>
+      <div class="caption">
+        <p>【Category】オリジナル作品<br><br>
+          【Title】Movie Collections<br><br>
+          【Skill】HTML / CSS / JQuery / Ruby on Rails<br><br>
+          【Detail】自分のお気に入りの映画を共有できるサービスです。
+        </p>
+      </div>
+    </div>
+    </a>
+
+    <a href="https://tabi-channel.herokuapp.com/" class="portfolio_link">
+    <div class="portfolio">
+      <img src="./image/TabiChannel.png" alt="portfolio" />
+      <div class="mask1"></div>
+      <div class="mask2"></div>
+      <div class="caption">
+        <p>【Category】オリジナル作品<br><br>
+          【Title】 Tabi Channel<br><br>
+          【Skill】 HTML / CSS / JQuery / Ruby on Rails<br><br>
+          【Detail】旅好き同士が交流できる掲示板サービスです。
+        </p>
+      </div>
+    </div>
+    </a>
+
+  </div>
+</div>
+
+<footer>
+  <div class="portfolio_title contact_title">
+    <span class="glyphicon glyphicon-envelope" style="letter-spacing:5px;"></span><p>Contact</p>
+  </div>
+  <div class="contact_text">ご依頼（ご相談）はメールよりお願い致します</div>
+    <!--SNSアイコン-->
+    <div>
+    <ul class="follow-me">
+      <li><a href="mailto:yuzi0x14@gmail.com?body=ご依頼/ご相談内容" class="gmail"></a></li>
+      <li><a href="https://twitter.com/YuJi_MZTN" class="twitter"></a></li>
+      <li><a href="https://www.instagram.com/yuji_mztn/" class="instagram"></a></li>
+      <li><a href="https://www.youtube.com/channel/UCbwZM3GtfLToCFw3dzE2S6w?view_as=subscriber" class="youtube"></a></li>
+    </ul>
+    </div>
+    <!--コピーライト-->
+    <div id="copyright">
+      Copyright &copy; 2019 Yuji MIZUTANI's Protfolio All Rights Reserved.
+    </div>
+</footer>
+</div>
+      <script src="vendor/jquery-2.2.4.min.js"></script>
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+      <script src="bootstrap/js/bootstrap.js"></script>
+      <script src="vendor/jquery.waypoints.min.js"></script>
+      <script src="vendor/jquery.magnific-popup.min.js"></script>
+      <script src="vendor/mobile-detect.min.js"></script>
+      <script src="main.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="jquery.waypoints.min.js"></script>
+
+</body>
+
+</html>
